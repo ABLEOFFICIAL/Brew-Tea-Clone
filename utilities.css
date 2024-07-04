@@ -5,3 +5,13 @@ li {
 a {
     text-decoration: none;
 }
+
+.btn {
+    padding: 15px 6rem;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 28px;
+}
