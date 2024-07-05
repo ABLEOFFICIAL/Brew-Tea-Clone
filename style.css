@@ -209,8 +209,9 @@ header .main-header ul a:hover {
 }
 
 .container-3 img {
-    width: 27rem;
+    width: 30rem;
     margin: 0;
+    border-radius: 10px;
 }
 
 .container-3-1-header-1 {
@@ -260,3 +261,103 @@ header .main-header ul a:hover {
 }
 
 /* section 3 end */
+
+
+/* section 4 start */
+#section-4 {
+    margin-bottom: 11rem;
+}
+
+.container-4 {
+    display: grid;
+    gap: 3.5rem;
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 1500px;
+    margin-inline: auto;
+}
+
+#section-4 img {
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+#section-4 h3 {
+    font-family: "Caprasimo", serif;
+    font-size: 2rem;
+    font-weight: 100;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#section-4 p {
+    width: 90%;
+    font-size: 14px;
+    font-weight: 100;
+    text-align: center;
+    margin: 0 35px 3.5rem;
+}
+
+#section-4 a {
+    text-align: center;
+    margin: 0 11rem;
+}
+/* section 4 end */
+
+/* section 5 start */
+#section-5 {
+    margin-bottom: 10rem;
+}
+
+.container-5 {
+    display: grid;
+    gap: 30px;
+    max-width: 1500px;
+    margin-inline: auto;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.container-5 img {
+    height: 60vh;
+    width: 29vw;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.c5-3-header-1 {
+    font-family: "Caprasimo", serif;
+    font-size: 3.5rem;
+    margin-bottom: 15px;
+    line-height: 1.5;
+}
+
+.c5-3-header-2 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    line-height: 2;
+}
+
+.paragraph-5-1 {
+    margin-bottom: 10px;
+}
+
+.container-5 span {
+    color: #ffcc00;
+}
+
+.paragraph-5-2 {
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 2.5;
+    width: 80%;
+    margin-bottom: 40px;
+}
+
+.container-5 a {
+    padding: 15px 8rem;
+}
+/* section 5 end */
+
+
+
+
