@@ -687,6 +687,10 @@ header .main-header ul a:hover {
     } 
 
     /* section 2 */
+    #section-2 {
+        margin-bottom: 3rem;
+    }
+
     .container-2 {
         max-width: 350px;
         margin: 0 auto;
@@ -741,8 +745,91 @@ header .main-header ul a:hover {
         border-bottom: 1px solid #000;
         margin-left: 60px;
     }
+
+    /* section 3 */
+    #section-3 {
+        margin-bottom: 5rem;
+    }
+    
+    .container-3 {
+        display: grid;
+        gap: 10px;
+        max-width: 350px;
+        margin: 0 auto;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+    }
+
+    .container-3-1 {
+        width: 100vw;
+    }
+
+    .container-3-1-header-1 {
+        font-family: "Caprasimo", serif;
+        font-size: 1.5rem;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .container-3-1-header-2 {
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .paragraph-3-1,
+    .paragraph-3-2 {
+        text-align: center;
+    }
+    .paragraph-3-2 {
+        font-size: 13px;
+        font-weight: 100;
+        line-height: 1.6;
+        width: 80%;
+        margin-inline: auto;
+        margin-bottom: 20px;
+    }
+
+    /* .paragraph-3-3,
+    .paragraph-3-4 {
+        display: inline-block;
+    } */
+    
 }
 /* media query */
+
+
+
+
+
+.paragraph-3-1 {
+    margin-bottom: 10px;
+}
+
+.container-3-1 span {
+    color: #ffcc00;
+}
+
+
+.paragraph-3-3 {
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 1.6;
+    width: 80%;
+    margin-bottom: 15px;
+}
+.paragraph-3-4 {
+    font-size: 13px;
+    font-weight: 100;
+    line-height: 1.6;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+#section-3 .btn {
+    margin-top: 20px;
+}
 
 
 
