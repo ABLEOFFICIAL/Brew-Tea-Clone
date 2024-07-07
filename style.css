@@ -565,5 +565,18 @@ header .main-header ul a:hover {
 /* keyframes */
 
 /* media query */
-@media (max-width='')
+@media (min-width:400px) and (max-width:1280px) {
+    .top-container {
+        text-align: center;
+        background-color: #ffcc00;
+        height: 3em;
+        padding: 15px;
+        font-weight: 400;
+        font-size: 13px;
+    }
+
+    .header-top {
+        width: 100%;
+    }
+}
 /* media query */
